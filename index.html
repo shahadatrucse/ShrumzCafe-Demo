@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>shrumzcafe</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.jpg" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-    rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>shrumzcafe</title>
-  <link rel="icon" type="image/x-icon" href="./images/logo.jpg" />
-</head>
-
-<body class="overflow-x-hidden">
-  <!-- HERO SECTION -->
-  <section>
-    <div
-    class="h-screen w-full bg-cover bg-fixed bg-center relative flex items-center justify-center bg-no-repeat bg-[url('./images/chair_1.jpg')]">
-    
-    <div class="grid grid-cols-1 justify-items-center content-center">
-      
-      <div>
-        <h1 class="text-white font-medium text-4xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-9xl uppercase tracking-widest">
-        shrumz cafe
-        </h1>
-      </div>
-
-      <div>
-        <img src="./images/file.png" class="w-32 h-32 mx-auto mt-4 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-20 lg:h-20 xl:w-26 xl:h-26  2xl:w-32 2xl:h-32" alt="" /></div>
-      </div>
-
-  </div>
-
-  </section>
-
-  <!-- UNDER HERO SECTION -->
-  <section class="bg-white p-8 rounded shadow-lg text-center">
-    <div class="mb-28">
-      <h2 class="text-4xl font-bold mt-32 leading-[50px]">
-        Welcome to the ShrŪmz <br class="hidden md:block" />
-        Cafe
-      </h2>
-      <p class="text-gray-600 mt-6 text-xl">At GYM U NYC by David Barton</p>
-    </div>
+  <body class="overflow-x-hidden">
+    <!-- HERO SECTION -->
+    <section id="home">
       <div
-        class="grid grid-cols-1 justify-center items-center md:grid-cols-1 md:gap-y-20 md:justify-items-center md:content-center lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-8 mb-28">
-        <div class="flex flex-col md:flex-row items-center md:items-start mb-8 md:mb-0">
+        class="h-screen w-full bg-cover bg-fixed bg-center relative flex items-center justify-center bg-no-repeat bg-[url('./images/banner.jpg')]"
+      >
+        <div class="absolute bg-[#00000099] top-0 left-0 bottom-0 right-0"></div>
+        <div class="grid grid-cols-1 justify-items-center content-center absolute">
+          <div>
+            <h1
+              class="text-white font-extrabold text-4xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-9xl uppercase tracking-widest"
+            >
+              shrumz cafe
+            </h1>
+          </div>
+
+          <div>
+            <img
+              src="./images/logo-2.png"
+              class="w-32 h-32 mx-auto mt-4 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-20 lg:h-20 xl:w-26 xl:h-26 2xl:w-32 2xl:h-32"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    
+    <!-- UNDER HERO SECTION -->
+    <section class="bg-white p-8 rounded shadow-lg text-center">
+      <div class="mb-28">
+        <h2 class="text-4xl font-bold mt-32 leading-[50px]">
+          Welcome to the ShrŪmz <br class="hidden md:block" />
+          Cafe
+        </h2>
+        <p class="text-gray-600 mt-6 text-xl">At GYM U NYC by David Barton</p>
+      </div>
+      <div
+        class="grid grid-cols-1 justify-center items-center md:grid-cols-1 md:gap-y-20 md:justify-items-center md:content-center lg:grid-cols-2 xl:grid-cols-3 gap-8 mt-8 mb-28"
+      >
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start mb-8 md:mb-0"
+        >
           <a target="_blank" href="https://www.gymunyc.com/">
-            <img class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover" src="./images/drink_1.jpg" alt="" />
+            <img
+              class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover"
+              src="./images/welcome1.jpg"
+              alt=""
+            />
           </a>
           <div class="md:ml-4 mt-4 md:mt-0 text-center md:text-left">
             <h1 class="font-extrabold text-xl md:text-2xl">
@@ -60,10 +74,18 @@
           </div>
         </div>
 
-        <div class="flex flex-col md:flex-row items-center md:items-start mb-8 md:mb-0">
-          <a target="_blank"
-            href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR3HRfcxO6utbwSl7zDzpXDYiJ30u9IaKl4h8-mQyQSsoMQDYa9w7Z_W9t4&sei=CZHCDBuh88uGEcMn4WFFXfRl&utm_campaign&utm_source=search">
-            <img class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover" src="./images/drink_12.jpg" alt="" />
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start mb-8 md:mb-0"
+        >
+          <a
+            target="_blank"
+            href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR3HRfcxO6utbwSl7zDzpXDYiJ30u9IaKl4h8-mQyQSsoMQDYa9w7Z_W9t4&sei=CZHCDBuh88uGEcMn4WFFXfRl&utm_campaign&utm_source=search"
+          >
+            <img
+              class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover"
+              src="./images/logo.jpg"
+              alt=""
+            />
           </a>
           <div class="md:ml-4 mt-4 md:mt-0 text-center md:text-left">
             <h1 class="font-extrabold text-xl md:text-2xl">
@@ -75,37 +97,53 @@
 
         <div class="flex flex-col md:flex-row items-center md:items-start">
           <a href="/ShrumzCafe-Demo/index.html" target="_blank">
-            <img class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover" src="./images/drink_6.jpg" alt="" />
+            <img
+              class="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover"
+              src="./images/welcome1.jpg"
+              alt=""
+            />
           </a>
           <div class="md:ml-4 mt-4 md:mt-0 text-center md:text-left">
             <h1 class="font-extrabold text-xl md:text-2xl">
               <a target="_blank" href="https://www.gymunyc.com/">Locate Us</a>
             </h1>
-            <p class="w-40 md:w-52 text-gray-700">
-              Visit us Today!
-            </p>
+            <p class="w-40 md:w-52 text-gray-700">Visit us Today!</p>
           </div>
         </div>
       </div>
-  </section>
+    </section>
 
-  <!-- IMAGE SECTION -->
-  <section>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-      <div class="col-span-1 md:col-span-2 lg:col-span-2 row-span-1 md:row-span-2 lg:row-span-2 bg-orange-500">
-        <img src="./images/room_3.jpg" alt="" class="w-full h-full object-cover" />
+    <!-- IMAGE SECTION -->
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+        <div
+          class="col-span-1 md:col-span-2 lg:col-span-2 row-span-1 md:row-span-2 lg:row-span-2 bg-orange-500"
+        >
+          <img
+            src="./images/room_3.jpg"
+            alt=""
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="bg-orange-500">
+          <img
+            src="./images/food_4.jpg"
+            alt=""
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="bg-orange-500">
+          <img
+            src="./images/drink_10.jpg"
+            alt=""
+            class="w-full h-full object-cover"
+          />
+        </div>
       </div>
-      <div class="bg-orange-500">
-        <img src="./images/food_4.jpg" alt="" class="w-full h-full object-cover" />
-      </div>
-      <div class="bg-orange-500">
-        <img src="./images/food_6.jpg" alt="" class="w-full h-full object-cover" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- EXPLORE SECTION -->
-  <section class="mb-20 text-center mt-40">
+    <!-- EXPLORE SECTION -->
+    <!-- <section class="mb-20 text-center mt-40">
     <div class="mb-20">
       <h1 class="mb-6 font-bold text-2xl font-medium tracking-widest font-sans">
         THE LAB AT PATENT PENDING IS OPEN FOR PRIVATE PARTIES AND INTIMATE
@@ -115,398 +153,537 @@
         class="text-xl underline" target="_blank">EXPLORE...</a>
     </div>
     <hr class="w-[90%] mx-auto" />
-  </section>
+  </section> -->
 
-  <!-- SMOOTHIES SECTION -->
-  <section class="mb-40 text-center mt-40" id="smoothies">
-    <div class="mb-32">
-      <h1 class="mb-8 font-bold text-3xl uppercase font-sans tracking-widest">
-        Smoothies
-      </h1>
-      <p class="font-medium uppercase">
-        <a href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR0X-X8prTU1XON8P5OmuYuTt7Jd1jAE_8c-urouw4GFhIRbGJgibv-zzFQ&sei=CcaXwHBRDBmuEXMhukAo_TrA&utm_campaign&utm_source=search"
-          class="underline" target="_blank">MENU</a>
-        TO Fuel your workout, recovery <br />
-        AND hydration
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 gap-y-24 2xl:gap-x-0 px-32 justify-items-center">
-      
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_1.jpg" alt="" />
-        </div>
-
-        <div class="text-center mt-4 sm:items-start">
-
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            the u
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Bananas
-            <br />Chocolate Protein <br />Chocolate Almond Milk <br />Almond
-            Butter <br /><span class="font-bold">$10.50+</span>
-          </p>
-        </div>
+    <!-- SMOOTHIES SECTION -->
+    <section class="mb-40 text-center mt-40" id="smoothies">
+      <div class="mb-32">
+        <h1 class="mb-8 font-bold text-3xl uppercase font-sans tracking-widest">
+          Smoothies
+        </h1>
+        <p class="font-medium uppercase">
+          <a
+            href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR0X-X8prTU1XON8P5OmuYuTt7Jd1jAE_8c-urouw4GFhIRbGJgibv-zzFQ&sei=CcaXwHBRDBmuEXMhukAo_TrA&utm_campaign&utm_source=search"
+            class="underline"
+            target="_blank"
+            >MENU</a
+          >
+          TO Fuel your workout, recovery <br />
+          AND hydration
+        </p>
       </div>
 
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_12.jpg" alt="" />
+      <div
+        class="grid grid-cols-1 gap-4 sm:grid-cols-2 gap-y-24 2xl:gap-x-0 px-32 justify-items-center"
+      >
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/the-u.avif"
+              alt=""
+            />
+          </div>
+
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              the u
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Bananas
+              <br />Chocolate Protein <br />Chocolate Almond Milk <br />Almond
+              Butter <br /><span class="font-bold">$10.50+</span>
+            </p>
+          </div>
         </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            Barton Biceps
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Strawberries
-            <br />Blueberries <br />Bananas <br />Flax Seeds <br />Vanilla
-            Protein <br />Vanilla Almond Milk <br /><span class="font-bold">$10.50+</span>
-          </p>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/Barton-Biceps.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              Barton Biceps
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Strawberries
+              <br />Blueberries <br />Bananas <br />Flax Seeds <br />Vanilla
+              Protein <br />Vanilla Almond Milk <br /><span class="font-bold"
+                >$10.50+</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/Very-Vanilla.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              very vanila
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Vanilla Protein <br />
+              Bananas <br />
+              Strawberries <br />
+              Vanilla Almond Milk <br />
+              <span class="font-bold">$10.50+</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/Pre-Workout.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              pre workout
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Choice of Milk <br />
+              Flax Seeds, Strawberries <br />
+              Energy Boost <br />
+              Vanilla Protein <br /><span class="font-bold">$10.50+</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/DB&J.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              DB&J
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Peanut Butter <br />
+              Cold Brewed Java <br />
+              Chocolate Vegan Protein <br />
+              Bananas <br />
+              Cacao & Date Puree <br />
+              <span class="font-bold">$10.50+</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/Post-Workout.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              Post workout
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Choice of Milk <br />
+              Almond Butter <br />
+              Bananas <br />
+              Glutamine <br />
+              Chocolate Protein <br />
+              <span class="font-bold">$10.50+</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/The-ShrUmz.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              The ShrUmz
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Chaga Mushroom <br />
+              Cordyceps Mushroom <br />
+              Lion's Mane Mushroom <br />
+              Chia Seeds <br />
+              Hemp Seeds <br />
+              Vanilla Protein <br />
+              Banana <br />
+              Dates <br />
+              Vanilla Almond Milk <br />
+              <span class="font-bold">$16.00</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/Loco-Coco.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              loco coco
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Banana <br />
+              Almond Butter <br />
+              Vanilla Protein <br />
+              Coconut Oil <br />
+              Chia Seeds <br />
+              Agave <br />
+              Vanilla Almond Milk <br />
+              <span class="font-bold">$10.50+</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/SeedSerenity.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              seed serenity
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Banana <br />
+              Hemp Seeds <br />Chia Seeds <br />
+              Flax Seeds <br />Cinnamon <br />
+              Date Puree <br />Vanilla Almond Milk <br /><span class="font-bold"
+                >$10.50+</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0"
+        >
+          <div class="text-center mt-4 sm:items-start">
+            <img
+              class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
+              src="./images/product/MeadowMushroom.avif"
+              alt=""
+            />
+          </div>
+          <div class="text-center mt-4 sm:items-start">
+            <h1
+              class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase"
+            >
+              MEADOW MUSHROOM
+            </h1>
+            <p
+              class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7"
+            >
+              Smoothie Of The Month Blueberries <br />
+              Bananas, Chia Seeds <br />
+              Lion's Mane Mushroom <br />
+              Vanilla Protein <br />
+              Vanilla Almond Milk <br />
+              Vegan Whipped Cream <br />
+              Freeze Dried Raspberry <br /><span class="font-bold"
+                >$10.50+</span
+              >
+            </p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_3.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            very vanila
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Vanilla Protein <br />
-            Bananas <br />
-            Strawberries <br />
-            Vanilla Almond Milk <br />
-            <span class="font-bold">$10.50+</span>
-          </p>
+    <!-- SNACKS/ADD ON SECTION -->
+    <section>
+      <div class="mb-20 text-center">
+        <h1 class="mb-8 font-bold text-3xl uppercase tracking-widest font-sans">
+          SNACKS/ADD ON
+        </h1>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 mx-[20%]">
+          <div>
+            <h3 class="my-16 text-2xl font-sans">SNACKS</h3>
+            <div
+              class="flex flex-col gap-6 text-left items-center justify-center mb-16 italic"
+            >
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Acai Bowl</span>
+                <span>$11.00</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Barebells Bars</span>
+                <span>$4.99</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Met-Rx Bar</span>
+                <span>$5.25</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Protein Brownie/Blondie</span>
+                <span>$5.50</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Protein Chip</span>
+                <span>$4.99</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Protein Cookie</span>
+                <span>$4.00</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Protein Pastry</span>
+                <span>$4.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="my-16 text-2xl font-sans">ADD ON</h3>
+            <div
+              class="flex flex-col gap-6 text-left items-center justify-center mb-16 italic"
+            >
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Mushroom</span>
+                <span>$2.50</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Peanut Butter</span>
+                <span>$1.00</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Coconut Oil</span>
+                <span>$1.00</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Almond Butter</span>
+                <span>$1.00</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Glutamine</span>
+                <span>$1.50</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Protein</span>
+                <span>$1.50</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Flax Seeds</span>
+                <span>$1.00</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Creatine</span>
+                <span>$1.50</span>
+              </div>
+              <div class="flex gap-8 items-center">
+                <span class="w-[12rem]">Brain Floss</span>
+                <span>$2.00</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_4.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            pre workout
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Choice of Milk <br />
-            Flax Seeds, Strawberries <br />
-            Energy Boost <br />
-            Vanilla Protein <br /><span class="font-bold">$10.50+</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_14.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            DB&J
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Peanut Butter <br />
-            Cold Brewed Java <br />
-            Chocolate Vegan Protein <br />
-            Bananas <br />
-            Cacao & Date Puree <br />
-            <span class="font-bold">$10.50+</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_6.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            Post workout
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Choice of Milk <br />
-            Almond Butter <br />
-            Bananas <br />
-            Glutamine <br />
-            Chocolate Protein <br />
-            <span class="font-bold">$10.50+</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_7.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            The ShrUmz
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Chaga Mushroom <br />
-            Cordyceps Mushroom <br />
-            Lion's Mane Mushroom <br />
-            Chia Seeds <br />
-            Hemp Seeds <br />
-            Vanilla Protein <br />
-            Banana <br />
-            Dates <br />
-            Vanilla Almond Milk <br />
-            <span class="font-bold">$16.00</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_8.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            loco coco
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Banana <br />
-            Almond Butter <br />
-            Vanilla Protein <br />
-            Coconut Oil <br />
-            Chia Seeds <br />
-            Agave <br />
-            Vanilla Almond Milk <br />
-            <span class="font-bold">$10.50+</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_9.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            seed serenity
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Banana <br />
-            Hemp Seeds <br />Chia Seeds <br />
-            Flax Seeds <br />Cinnamon <br />
-            Date Puree <br />Vanilla Almond Milk <br /><span class="font-bold">$10.50+</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="flex flex-col items-center mb-8 gap-4 sm:flex-row sm:items-start sm:gap-0">
-        <div class="text-center mt-4 sm:items-start">
-          <img
-            class="w-28 h-28 mr-80 sm:w-8 sm:h-8 md:w-14 md:h-14 sm:mr-0 lg:w-20 lg:h-20 xl:w-24 xl:h-24 2xl:w-28 2xl:h-28 object-cover"
-            src="./images/drink_10.jpg" alt="" />
-        </div>
-        <div class="text-center mt-4 sm:items-start">
-          <h1 class="font-medium text-lg mb-3 text-center sm:text-left sm:pl-8 uppercase">
-            MEADOW MUSHROOM
-          </h1>
-          <p class="w-40 text-center sm:text-left sm:pl-8 md:w-52 text-gray-700 italic leading-7">
-            Smoothie Of The Month Blueberries <br />
-            Bananas, Chia Seeds <br />
-            Lion's Mane Mushroom <br />
-            Vanilla Protein <br />
-            Vanilla Almond Milk <br />
-            Vegan Whipped Cream <br />
-            Freeze Dried Raspberry <br /><span class="font-bold">$10.50+</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SNACKS/ADD ON SECTION -->
-  <section>
-    <div class="mb-20 text-center">
+    </section>
+    <!--ONE IMAGE SECTION -->
+    <section>
+      <div
+        class="h-screen w-full bg-cover bg-fixed bg-center relative flex items-center justify-center bg-no-repeat bg-[url('./images/room_4.jpg')]"
+      ></div>
+    </section>
+    <!-- ORDER SECTION -->
+    <section class="my-40 text-center">
       <h1 class="mb-8 font-bold text-3xl uppercase tracking-widest font-sans">
-        SNACKS/ADD ON
+        ORDER ONLINE & GYM U
       </h1>
-      
-      <div class="grid grid-cols-1 lg:grid-cols-2 mx-[20%]">
-        <div>
-          <h3 class="my-16 text-2xl font-sans">SNACKS</h3>
-          <div class="flex flex-col gap-6 text-left items-center justify-center mb-16 italic">
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Acai Bowl</span>
-              <span>$11.00</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Barebells Bars</span>
-              <span>$4.99</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Met-Rx Bar</span>
-              <span>$5.25</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Protein Brownie/Blondie</span>
-              <span>$5.50</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Protein Chip</span>
-              <span>$4.99</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Protein Cookie</span>
-              <span>$4.00</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Protein Pastry</span>
-              <span>$4.99</span>
-            </div>
-          </div>
-        </div>
+      <p>Opens Tuesday at 7:30AM</p>
+      <p
+        class="my-12 text-xl mb-20 leading-relaxed px-4 sm:px-2 italic font-serif"
+      >
+        Patent Pending offers walk-in seating daily on a first-come, first-serve
+        basis beginning at 5PM. <br /><a
+          href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR0X-X8prTU1XON8P5OmuYuTt7Jd1jAE_8c-urouw4GFhIRbGJgibv-zzFQ&sei=CcaXwHBRDBmuEXMhukAo_TrA&utm_campaign&utm_source=search"
+          class="underline"
+          target="_blank"
+          >Order Online</a
+        >
+        are optional and prix-fixe. Please note that gym address
+        <a href="https://www.gymunyc.com/" class="underline" target="_blank"
+          >Gym u</a
+        >
+        to control your body.
+      </p>
+      <hr class="mx-auto w-[90%]" />
+      <p class="my-20 italic">
+        For Private Events & Photoshoots <br />
+        please visit our
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScimOEBUe6aEzk-aWVBX7nRK1Bz9ALkzQx_-lNGbZQ8hFElIA/viewform"
+          target="_blank"
+          class="underline"
+          >events page</a
+        >
+        or email,
+        <a href="mailto:events@shrumzcafe.com" class="underline"
+          >events@shrumzcafe.com</a
+        >
+      </p>
+    </section>
 
-        <div>
-          <h3 class="my-16 text-2xl font-sans">ADD ON</h3>
-          <div class="flex flex-col gap-6 text-left items-center justify-center mb-16 italic">
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Mushroom</span>
-              <span>$2.50</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Peanut Butter</span>
-              <span>$1.00</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Coconut Oil</span>
-              <span>$1.00</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Almond Butter</span>
-              <span>$1.00</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Glutamine</span>
-              <span>$1.50</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Protein</span>
-              <span>$1.50</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Flax Seeds</span>
-              <span>$1.00</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Creatine</span>
-              <span>$1.50</span>
-            </div>
-            <div class="flex gap-8 items-center">
-              <span class="w-[12rem]">Brain Floss</span>
-              <span>$2.00</span>
-            </div>
-          </div>
-        </div>
+    <!-- FOOTER SECTION -->
+    <section class="bg-black text-center w-full">
+      <h1
+        class="pt-12 text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl text-white uppercase tracking-widest"
+      >
+        shrumz cafe
+      </h1>
+      <img
+        src="./images/logo.jpg"
+        class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 2xl:w-28 2xl:h-28 mx-auto mt-4 mb-20"
+        alt=""
+      />
+
+      <div class="flex flex-col">
+        <a
+          href="/ShrumzCafe-Demo/gallery.html"
+          class="font-sans text-white mb-10 underline text-base sm:text-1xl lg:text-2xl 2xl:text-3xl"
+          >GALLERY</a
+        >
+        <a
+          href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR0X-X8prTU1XON8P5OmuYuTt7Jd1jAE_8c-urouw4GFhIRbGJgibv-zzFQ&sei=CcaXwHBRDBmuEXMhukAo_TrA&utm_campaign&utm_source=search"
+          class="font-sans text-white mb-10 underline text-base sm:text-1xl lg:text-2xl 2xl:text-3xl"
+          >ORDER ONLINE</a
+        >
+        <a
+          href="#smoothies"
+          class="font-sans text-white mb-16 underline text-base sm:text-1xl lg:text-2xl 2xl:text-3xl"
+          >SMOOTHIES</a
+        >
       </div>
-    
-    </div>
-  </section>
-  <!--ONE IMAGE SECTION -->
-  <section>
-    <div class="h-screen w-full bg-cover bg-fixed bg-center relative flex items-center justify-center bg-no-repeat bg-[url('./images/room_4.jpg')]"></div>
-  </section>
-  <!-- ORDER SECTION -->
-  <section class="my-40 text-center">
-    <h1 class="mb-8 font-bold text-3xl uppercase tracking-widest font-sans">
-      ORDER ONLINE & GYM U
-    </h1>
-    <p>Opens Tuesday at 7:30AM</p>
-    <p class="my-12 text-xl mb-20 leading-relaxed px-4 sm:px-2 italic font-serif">
-      Patent Pending offers walk-in seating daily on a first-come, first-serve
-      basis beginning at 5PM. <br /><a
-        href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR0X-X8prTU1XON8P5OmuYuTt7Jd1jAE_8c-urouw4GFhIRbGJgibv-zzFQ&sei=CcaXwHBRDBmuEXMhukAo_TrA&utm_campaign&utm_source=search"
-        class="underline" target="_blank">Order Online</a>
-      are optional and prix-fixe. Please note that gym address
-      <a href="https://www.gymunyc.com/" class="underline" target="_blank">Gym u</a>
-      to control your body.
-    </p>
-    <hr class="mx-auto w-[90%]" />
-    <p class="my-20 italic">
-      For Private Events & Photoshoots <br />
-      please visit our
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScimOEBUe6aEzk-aWVBX7nRK1Bz9ALkzQx_-lNGbZQ8hFElIA/viewform"
-        target="_blank" class="underline">events page</a>
-      or email,
-      <a href="mailto:events@shrumzcafe.com" class="underline">events@shrumzcafe.com</a>
-    </p>
-  </section>
 
-  <!-- FOOTER SECTION -->
-  <section class="bg-black text-center w-full">
-    <h1 class="pt-12 text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl text-white uppercase tracking-widest">
-      shrumz cafe
-    </h1>
-    <img src="./images/logo.jpg"
-      class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 2xl:w-28 2xl:h-28 mx-auto mt-4 mb-20" alt="" />
+      <p
+        class="text-white uppercase font-medium mb-20 leading-loose text-white text-xs tracking-widest leading-9 sm:text-base lg:text-base 2xl:text-base"
+      >
+        215 West 23rd Street <br />
+        New York,NY 10011 <br /><a
+          href="/ShrumzCafe-Demo/contact.html"
+          class="underline"
+          >Contact Us</a
+        >
+        -
+        <a href="#" class="underline"
+          >About</a
+        >
+        <br />
+        <a href="#" class="underline">HOME</a>
+        /
+        <a href="mailto:events@shrumzcafe.com" class="underline">EMAIL</a>
+        /
+        <a href="#" class="underline"
+          >PRESS</a
+        >
+        <br /><a
+          href="#"
+          class="underline"
+          >FACEBOOK</a
+        >
+        -
+        <a
+          href="/ShrumzCafe-Demo/gallery.html"
+          class="underline"
+          >INSTAGRAM</a
+        >
+      </p>
 
-    <div class="flex flex-col">
-      <a href="/ShrumzCafe-Demo/gallery.html"
-        class="font-sans text-white mb-10 underline text-base sm:text-1xl lg:text-2xl 2xl:text-3xl"
-        target="_blank">GALLERY</a>
-      <a href="https://food.google.com/chooseprovider?restaurantId=%2Fg%2F11vm70wpzb&g2lbs=AIQllVwd1J8njA595VthBKghs3OTzZ38CadaKlreClTyEY8Tki_dtKTyGbAGyU0A21TXsc_ZleAFkRBlTPCoJxcfUkOYu8IHp6CXWhn7qr7vLiEZlUVr7-hxx8JS81X-KYgWKIL4n1XB&hl=en-US&gl=us&ssta=1&fo_m=MfohQo559jFvMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=zikhZsLCG52e5NoP0aSj4AQ&ei=zikhZsLCG52e5NoP0aSj4AQ&fo_s=OA%2CSOE&opi=89978449&foub=mcpp&orderType=1&fbclid=IwAR0X-X8prTU1XON8P5OmuYuTt7Jd1jAE_8c-urouw4GFhIRbGJgibv-zzFQ&sei=CcaXwHBRDBmuEXMhukAo_TrA&utm_campaign&utm_source=search"
-        class="font-sans text-white mb-10 underline text-base sm:text-1xl lg:text-2xl 2xl:text-3xl"
-        target="_blank">ORDER ONLINE</a>
-      <a href="#smoothies" target="_blank"
-        class="font-sans text-white mb-16 underline text-base sm:text-1xl lg:text-2xl 2xl:text-3xl">SMOOTHIES</a>
-    </div>
-
-    <p
-      class="text-white uppercase font-medium mb-20 leading-loose text-white text-xs tracking-widest leading-9 sm:text-base lg:text-base 2xl:text-base">
-      215 West 23rd Street <br />
-      New York,NY 10011 <br /><a href="/ShrumzCafe-Demo/contact.html" class="underline" target="_blank">Contact
-        Us</a>
-      -
-      <a href="/ShrumzCafe-Demo/index.html" class="underline" target="_blank">About</a>
-      <br />
-      <a href="/ShrumzCafe-Demo/index.html" class="underline" target="_blank">HOME</a>
-      /
-      <a href="mailto:events@shrumzcafe.com" class="underline">EMAIL</a>
-      /
-      <a href="/ShrumzCafe-Demo/index.html" class="underline" target="_blank">PRESS</a>
-      <br /><a href="/ShrumzCafe-Demo/index.html" class="underline" target="_blank">FACEBOOK</a>
-      -
-      <a href="/ShrumzCafe-Demo/gallery.html" class="underline" target="_blank">INSTAGRAM</a>
-    </p>
-
-    <p
-      class="text-white uppercase font-medium mb-4 leading-5 text-[8px] tracking-widest sm:text-base lg:text-base 2xl:text-base pb-16">
-      PSST… CHECK OUT OUR SISTER SPOT NEXT DOOR,
-      <a href="https://www.gymunyc.com/" class="underline" target="_blank">Gym u!</a>
-      <br />PSST… CHECK OUT OUR OTHER SPOT,
-      <a href="https://www.gymunyc.com/" class="underline" target="_blank">Gym u!</a>
-      ON 40TH AND PARK!
-    </p>
-  </section>
-</body>
-
+      <p
+        class="text-white uppercase font-medium mb-4 leading-5 text-[8px] tracking-widest sm:text-base lg:text-base 2xl:text-base pb-16"
+      >
+        PSST… CHECK OUT OUR SISTER SPOT NEXT DOOR,
+        <a href="https://www.gymunyc.com/" class="underline"
+          >Gym u!</a
+        >
+        <br />PSST… CHECK OUT OUR OTHER SPOT,
+        <a href="https://www.gymunyc.com/" class="underline"
+          >Gym u!</a
+        >
+        ON 40TH AND PARK!
+      </p>
+    </section>
+  </body>
 </html>
