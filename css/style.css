@@ -1,48 +1,79 @@
-body {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+/* @import url("https://p.typekit.net/p.css?s=1&k=zfx6jvr&ht=tk&f=12046.12048.12051.12054&a=60529807&app=typekit&e=css"); */
+/* @font-face {
+  font-family: "baskerville-urw";
+  src: url("https://use.typekit.net/af/50c03d/000000000000000077359eea/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/50c03d/000000000000000077359eea/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/50c03d/000000000000000077359eea/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
   font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+} */
+
+/* @font-face {
+  font-family: "baskerville-urw";
+  src: url("https://use.typekit.net/af/3ba342/000000000000000077359ef0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/3ba342/000000000000000077359ef0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/3ba342/000000000000000077359ef0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
 }
 
 @font-face {
-  font-family: "Baskerville URW";
-  src: url("fonts/baskerville-urw.woff2") format("woff2"),
-    url("fonts/baskerville-urw.woff") format("woff");
-  font-weight: normal; /* Adjust if different weights are used */
-  font-style: normal;
-}
-
-.libre-baskerville-regular {
-  font-family: "Libre Baskerville", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.libre-baskerville-bold {
-  font-family: "Libre Baskerville", system-ui;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.libre-baskerville-regular-italic {
-  font-family: "Libre Baskerville", system-ui;
-  font-weight: 500;
+  font-family: "baskerville-urw";
+  src: url("https://use.typekit.net/af/1a61de/000000000000000077359f01/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/1a61de/000000000000000077359f01/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/1a61de/000000000000000077359f01/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+      format("opentype");
+  font-display: auto;
   font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
 }
 
-.headLine {
-  color: rgb(0, 0, 0);
-  font-family: "Baskerville URW", serif;
-  font-size: 14px;
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: 1.4px;
-  line-height: 27px;
-}
+@font-face {
+  font-family: "baskerville-urw";
+  src: url("https://use.typekit.net/af/5139d1/000000000000000077359f03/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/5139d1/000000000000000077359f03/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/5139d1/000000000000000077359f03/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+} */
 
-.elementLine {
-  color: rgb(0, 0, 0);
+/* .tk-baskerville-urw {
+  font-family: "baskerville-urw", serif;
+} */
+
+.emFont {
+  font-family: "baskerville-urw";
+  color: rgb(58, 58, 58);
   font-size: 15px;
-  letter-spacing: 1.5px;
-  line-height: 30px;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+}
+
+.hFont {
+  font-family: "baskerville-urw";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1.9em;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
 }
